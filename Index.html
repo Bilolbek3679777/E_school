@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eMaktab - Raqamli Kundalik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bosh qism (Header) -->
+  <header class="navbar">
+    <div class="logo">eMaktab</div>
+    <div class="user-info">
+      <span>O'quvchi: Ali Valiyev</span>
+    </div>
+  </header>
+
+  <!-- Asosiy konteyner -->
+  <main class="container">
+
+    <!-- Tizimga kirish bloki -->
+    <section class="card login-card">
+      <h2>Tizimga kirish</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="login">Login / ID:</label>
+          <input type="text" id="login" placeholder="Masalan: std12345" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Parol:</label>
+          <input type="password" id="password" placeholder="******" required>
+        </div>
+        <button type="submit" class="btn">Kirish</button>
+      </form>
+    </section>
+
+    <!-- Baholar va Dars jadvali bloki -->
+    <section class="card journal-card">
+      <h2>Bugungi darslar va Baholar</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Fan nomi</th>
+            <th>Uy vazifasi</th>
+            <th>Baho</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Matematika</td>
+            <td>12-mashq (14-bet)</td>
+            <td><span class="grade grade-5">5</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>O'zbek tili</td>
+            <td>Insho yozish</td>
+            <td><span class="grade grade-4">4</span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Informatika</td>
+            <td>HTML teglarini takrorlash</td>
+            <td><span class="grade grade-5">5</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+<script src="script.js"></script>
+</body>
+          </html>
